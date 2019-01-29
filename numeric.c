@@ -4,7 +4,9 @@ int main()
 {
  int a=0,b,i,j;
  char c[100000];
+ printf("Input :");
  gets(c);
+ printf("output :\n")
  for(i=0;c[i]!='\0';i++)
  {
      if((c[i]>=48)&&(c[i]<=57))
